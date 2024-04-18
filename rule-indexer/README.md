@@ -25,3 +25,17 @@ Before you begin, ensure you meet the following requirements:
 3. Or run unit test:
     ```bash
     ./mvnw test
+
+## Buil and Run Docker container
+
+1. To build Docker image, run the following command:
+
+    ```bash
+    docker build -t java-rule-indexer .
+
+2. To run your Docker container using the newly created image:
+
+    ```bash
+    docker run java-rule-indexer
+
+    
