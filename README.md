@@ -1,9 +1,9 @@
-## Application of SOLID Principles
+## SOLID Principles in cross-Language development
 
-In both the Java and Python versions, applied the same 5 core SOLID principles to enhance the modularity, maintainability, and testability of the application:
+In both the Java and Python versions of sample case of indexing system project, I have applied the 5 core SOLID principles to enhance the modularity, maintainability, and testability of the applications:
 
 ### Single Responsibility Principle (SRP)
-Each class is designed with a single responsibility. For instance, logic classes such as `CapitalizedWordCountLogic` and `LongWordListLogic` focus solely on specific computations, while rule classes manage the application of these computations.
+Each class is designed with a single responsibility. Logic classes such as `CapitalizedWordCountLogic` and `LongWordListLogic` focus solely on specific computations, while rule classes manage the application of these computations.
 
 ### Open/Closed Principle (OCP)
 The system is structured to be open for extension but closed for modification. New rules can be seamlessly integrated by adding classes that implement the `IndexingRule` abstract base class without modifying existing code.
