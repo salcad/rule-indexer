@@ -1,6 +1,6 @@
-## SOLID Principles in cross-Language development
+## SOLID Principles in cross-Language development (Java, Python & Golang)
 
-In both the Java and Python versions of sample case of indexing system project, I have applied the 5 core SOLID principles to enhance the modularity, maintainability, and testability of the applications:
+In both the Java, Python & Golang versions of sample case of indexing system project, I have applied the 5 core SOLID principles to enhance the modularity, maintainability, and testability of the applications:
 
 ### Single Responsibility Principle (SRP)
 Each class is designed with a single responsibility. Logic classes such as `CapitalizedWordCountLogic` and `LongWordListLogic` focus solely on specific computations, while rule classes manage the application of these computations.
