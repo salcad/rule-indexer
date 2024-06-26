@@ -12,7 +12,7 @@ The Rule Indexing System is a versatile application designed to demonstrate a us
   - **Rule Layer**: Manages the application of various rules using the logic layer.
   - **Processor Layer**: Orchestrates the overall file processing using the defined rules.
 
-- **Customizable and Extensible**: New class rules or logics can be easily integrated into the system without modifying existing code base. The logic and rule components are loosely coupled, making it easy to interchange and share functionalities between them.
+- **Customizable and Extensible**: New classes for rules or logics can be seamlessly integrated into the system without modifying the base classes. The logic and rule components are loosely coupled, making it easy to interchange and share functionalities between them. This design adheres to the principles of clean code and object-oriented programming (OOP), promoting high cohesion and low coupling. Each component focuses on a single responsibility, and interactions are governed by well-defined interfaces and abstractions, ensuring that the system is open for extension but closed for modification
 
 ## SOLID Principles Applied
 
