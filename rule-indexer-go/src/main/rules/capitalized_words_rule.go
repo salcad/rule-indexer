@@ -2,7 +2,7 @@ package rules
 
 import (
     "fmt"
-    "rule-indexer-go/logics"
+    "rule-indexer-go/src/main/logics"
 )
 
 type CapitalizedWordsRule struct {

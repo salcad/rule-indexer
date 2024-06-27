@@ -22,29 +22,23 @@ You can download and install the latest version of Go from the official Go websi
     go mod init your_project_name
     ```
 
-3. Download the dependencies using:
-
-    ```bash
-    go mod tidy
-    ```
-
 ## Run
 
-To run the application and the unit tests, follow these instructions:
+To run the application and the unit tests, you should execute the following command on terminal folder src/main:
 
 1. Run application:
     ```bash
-    go run main.go
+    go run ./src/main/main.go
     ```
 
 2. Run unit tests:
     ```bash
-    go test -v -count=1 ./tests  
+    go test -v -count=1 ./src/tests  
     ```
 
 ## Build and Run Docker container
 
-1. To build Docker image, run the following command:
+1. To build Docker image, run the following command on terminal folder src:
 
     ```bash
     docker build -t rule-indexer-go .

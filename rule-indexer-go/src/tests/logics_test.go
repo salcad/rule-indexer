@@ -2,7 +2,7 @@ package tests
 
 import (
     "reflect"
-    "rule-indexer-go/logics"
+    "rule-indexer-go/src/main/logics"
     "testing"
 )
 

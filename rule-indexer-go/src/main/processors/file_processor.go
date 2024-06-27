@@ -3,7 +3,7 @@ package processors
 import (
 	"fmt"
 	"os"
-	"rule-indexer-go/rules"
+	"rule-indexer-go/src/main/rules"
 )
 
 type FileProcessor struct {

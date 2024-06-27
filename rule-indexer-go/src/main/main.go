@@ -1,8 +1,8 @@
 package main
 
 import (
-    "rule-indexer-go/processors"
-    "rule-indexer-go/rules"
+    "rule-indexer-go/src/main/processors"
+    "rule-indexer-go/src/main/rules"
 )
 
 func main() {
